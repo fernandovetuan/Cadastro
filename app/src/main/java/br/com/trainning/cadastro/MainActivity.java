@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
 
                 Log.i(TAG,"onCreate");
+
+                finish();
             }
         });
     }
